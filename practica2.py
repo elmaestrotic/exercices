@@ -1,5 +1,4 @@
 import random
-
 lista=[]
 def isPrime(valor):
     for i in range(2, valor):
@@ -9,11 +8,9 @@ def isPrime(valor):
     return valor
 
 primo=0
-cprimos=0
-while  cprimos <=20:
-    primo = isPrime(random.randint(1, 100))
+while  len(lista) <=20:
+    primo = isPrime(random.randint(2, 100))
     if primo != 0:
         lista.append(primo)
-        cprimos+=1
 print(lista)
 
