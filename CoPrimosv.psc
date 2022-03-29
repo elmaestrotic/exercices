@@ -24,6 +24,7 @@ Funcion result <- maxCD (a,b )
 	
 Fin Funcion
 
+//la idea es hallar el MCD usando una función recursiva
 Funcion result <- mcd ( a,b )
 	si (b ==0 ) Entonces
 		result <- 1;
