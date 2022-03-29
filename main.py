@@ -38,11 +38,14 @@ def hallarParesenPosImpares():
 
 
 def isPrime(valor):
-    for i in range(2, valor):
-        if valor % i == 0:
-            return 0
-            break
-    return valor
+    if valor > 1:
+        for i in range(2, valor):
+            if valor % i == 0:
+                return 0
+                break
+        return valor
+    else:
+        return 0
 
 
 def findPrimes():
