@@ -19,12 +19,12 @@ Example:
 
 Output:
 16
-13
+10
 
 
 Explanation of the second case
 Vector given={3, 1, 4, 1, 1, 5, 9}
-                  // 0 1 2 3 4 5 <-- indexes
+           // 0 1 2 3 4 5 <-- indexes
 indices given 3 and 5
 Note that in the index 3 the value 1 is stored and in the index 5 the value 9.
 so the sum is equal to 10 which is the output value.
@@ -54,7 +54,7 @@ Ejemplo:
 
 Salida:
 16
-13
+10
 
 
 Explicación del segundo caso
